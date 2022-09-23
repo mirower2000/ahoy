@@ -12,8 +12,8 @@
 //-------------------------------------
 
 // Fallback WiFi Info
-#define FB_WIFI_SSID    "YOUR_WIFI_SSID"
-#define FB_WIFI_PWD     "YOUR_WIFI_PWD"
+#define FB_WIFI_SSID    "mirower"
+#define FB_WIFI_PWD     "0527@rfid125khz@0527"
 
 
 // Access Point Info
@@ -46,7 +46,7 @@
 #define DEF_RF24_IRQ_PIN        0
 
 // default radio ID
-#define DTU_RADIO_ID            ((uint64_t)0x1234567801ULL)
+#define DTU_RADIO_ID            ((uint64_t)0x1114174917314)
 
 // default NRF24 power, possible values (0 - 3)
 #define DEF_AMPLIFIERPOWER      2
@@ -55,7 +55,7 @@
 #define PACKET_BUFFER_SIZE      30
 
 // number of configurable inverters
-#define MAX_NUM_INVERTERS       3
+#define MAX_NUM_INVERTERS       1
 
 // default serial interval
 #define SERIAL_INTERVAL         5
