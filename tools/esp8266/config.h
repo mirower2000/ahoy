@@ -46,7 +46,7 @@
 #define DEF_RF24_IRQ_PIN        0
 
 // default radio ID
-#define DTU_RADIO_ID            ((uint64_t)0x1114174917314)
+#define DTU_RADIO_ID            ((uint64_t)0x1114174917314ULL)
 
 // default NRF24 power, possible values (0 - 3)
 #define DEF_AMPLIFIERPOWER      2
